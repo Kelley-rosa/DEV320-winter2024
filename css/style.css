@@ -1,5 +1,6 @@
 ﻿body {
-    background-color: #22333B;
+    background-color: #EBEBEB;
+    color: #32373B;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -15,7 +16,7 @@ div {
     /* this will change the container class background to red when tablet*/
 
     .col {
-        background-color: #22333B;
+        background-color: #EBEBEB;
     }
 }
 
@@ -23,7 +24,7 @@ div {
     /* For desktop: will change the container class to orange*/
 
     .col {
-        background-color: #0A0908;
+        background-color: #EBEBEB;
     }
 }
 
@@ -31,7 +32,7 @@ div {
     /* For desktop: will change the container class to orange*/
 
     .col {
-        background-color: #A9927D;
+        background-color: #EBEBEB;
     }
 }
 
@@ -39,13 +40,27 @@ div {
     /* For desktop: will change the container class to orange*/
 
     .col {
-        background-color: #F2F4F3;
+        background-color: #EBEBEB;
     }
 }
 
-Orientation of landscape
+/* Orientation of landscape */
 
 @media only screen and (orientation: landscape) {
     /* this will change the background to light blue when view is landscape */
-    background-color: lightblue;
+    *{
+        background-color: #EBEBEB;
+    } 
+}
+
+a {
+    color: #F4845F;
+}
+
+a:hover {
+    color: #ac340c;
+}
+
+a:visited {
+    color: #F4845F;
 }
